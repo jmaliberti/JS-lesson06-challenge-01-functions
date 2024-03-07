@@ -4,8 +4,9 @@ var startMyDay = function () {
 console.log(startMyDay());
 
 var favoriteCookie = function (cookie) {
-    return "My favorite cookie is ${cookie}"
+    return "My favorite cookie is ${cookie}."
 };
-console.log(favoriteCookie());
 favoriteCookie("snickerdoodle");
+console.log(favoriteCookie());
+
 
