@@ -15,6 +15,14 @@ console.log(introduce("Jessica", "Leasing Admin"));
 console.log(introduce("David", "Bartender"));
 //
 var hyrdationFeedback = function () {
-    var numGlasses = Number(prompt("How many glasses of water did you have today?"));
+    var numGlasses = Number(
+        prompt("How many glasses of water did you have today?")
+        );
+    if (numGlasses => 8) {
+        console.log("Great job staying hydrated!");
+    }
+    else if (numGlasses <8) {console.log("Not bad, not bad. Let’s try for a bit more tomorrow!");
+    }
 };
-console.log(hyrdationFeedback());
+
+hyrdationFeedback();
