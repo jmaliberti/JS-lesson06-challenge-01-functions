@@ -13,3 +13,8 @@ var introduce = function (name, occupation) {
 };
 console.log(introduce("Jessica", "Leasing Admin"));
 console.log(introduce("David", "Bartender"));
+//
+var hyrdationFeedback = function () {
+    var numGlasses = prompt("How many glasses of water did you have today?");
+};
+console.log(hyrdationFeedback());
